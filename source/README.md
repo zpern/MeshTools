@@ -43,6 +43,8 @@ python -X utf8 -B tool.py bounding-box input.vtk boxed.vtk 2.0
 
 ## 测试与打包
 
+首次克隆后的环境准备、CGNS 库配置和完整构建步骤见[根目录构建说明](../README.md#克隆后构建-exe)。以下命令在 `source` 目录、安装依赖后的 Python 环境中执行。
+
 ```powershell
 python -X utf8 -B tests/run_tests.py
 python -m ruff check .
