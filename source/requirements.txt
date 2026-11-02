@@ -1,0 +1,11 @@
+# Runtime
+numpy>=1.23,<3
+meshio>=5.3,<6
+vtk>=9.2,<10
+
+# Tests and formatting
+pytest>=8,<9
+ruff==0.14.3
+
+# EXE packaging
+pyinstaller==6.16.0
